@@ -1,0 +1,143 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.disSplay {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 142px 5fr 1fr;
+    grid-template-areas: 
+        "navbar" 
+        "main" 
+        "footer"
+    ;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.href{
+    text-decoration: none;
+}
+#navbar {
+    grid-area: navbar;
+}
+
+.main {
+    grid-area: main;
+    margin: auto 0;
+
+}
+
+#footer {
+    grid-area: footer;
+}
+@media(max-width:875px){
+    body,html{
+        overflow-x: hidden;
+    }
+    #navbar{
+        justify-content: start;
+    }
+    #footer{
+        justify-content: start;
+    }
+    .innerBoxLeft{
+        margin-bottom: 20px;
+        width: 690px;
+        margin-left: 13px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: flex-start;
+    }
+    .centralizar-box{
+        margin-bottom: 250px;
+        margin-top: 250px;
+        margin: 390px 0;
+
+    }
+}
+@media (max-width:900px) {
+    .main-layout-display {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product {
+        width: 300px;
+        width: calc(178px * 1.1);
+
+    }
+    .product-announcement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .product-tittle{
+        width: 116px;
+        word-break: break-all;
+    }
+    /* .image-product1 ,
+    .image-product2{
+        height: calc(90.98px * 1.2);
+        width: calc(auto * 1.2);
+    } */
+
+}
+
+@media (max-width: 500px) {
+    .main-layout-display {
+        grid-template-columns: 1fr;
+
+    }
+
+     .product {
+        width: calc(178px * 1.2);
+
+    }
+
+    .produtos {
+        display: none;
+    }
+
+    .contato {
+        display: none;
+    }
+
+    .hamburguer-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+        width: auto;
+        
+        order: 1;
+        flex: none;
+    }
+
+    .hamburguer-logo {
+        height: 100%;
+        width: auto;
+
+    }
+    .centralizar{
+        margin: 0 auto;
+        width: 900px;
+    }
+    .hamburguer-area:target {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex: none;
+        order: 0;
+    }
+}
+

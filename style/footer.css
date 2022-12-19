@@ -1,0 +1,391 @@
+#footer {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    left: 0;
+    /* top: 690px; */
+    bottom: 0;    
+    padding-top: 50px ;
+
+    display: flex;
+    justify-content: center;
+
+
+    background: linear-gradient(90deg, #00A4EB 0%, #0078D6 100%);
+}
+
+.footer-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 30px;
+    
+    /* position: absolute;
+    left: 20.06%;
+    right: 24.61%;
+    top: 13.33%;
+    bottom: 0%; */
+}
+
+.row-contents-12 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px;
+
+    gap: 300px;
+    
+    width: 807.14px;
+    height: 200.45px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.first-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 324.14px;
+    height: 200.45px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.apresentation-pattern {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    width: 324.14px;
+    height: 55px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.apresentation-tittle {
+    width: 234px;
+    height: 55px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ete-logo {
+    width: 90.14px;
+    height: 55px;
+    
+    /* background: url(ete-logo2.png); */
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    /* background: url(ete-logo2); */
+}
+
+.apresentation-content {
+    width: 324px;
+    height: 129.45px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    
+    font-feature-settings: 'liga' off;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.second-text-content {
+    position: relative;
+    width: 179px;
+    height: 158px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-display-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 178.48px;
+    height: 128.45px;
+    left: 0px;
+    top: 0px;
+    
+    
+}
+
+.contact-area {
+    position: relative;
+    width: 178.48px;
+    height: 88.45px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact-tittle {
+    width: 178px;
+    height: 34px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    
+    margin: 0;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contact-number {
+    width: 178.48px;
+    height: 17.45px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-email {
+    width: 178px;
+    height: 17px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.contact-midia {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 25px;
+    
+    width: 94px;
+    height: 16px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.contact-midia > a:hover {
+    filter: opacity(0.5);
+}
+
+.whatsapp-logo {
+    width: 16px;
+    height: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.facebook-logo {
+    width: 16px;
+    height: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;      
+}
+
+.instagram-logo {
+    width: 16px;
+    height: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.github-logo {
+    width: 16px;
+    height: 16px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.bottom-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    
+    width: 685px;
+    height: 56px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.copyright-term, .funder {
+    margin: 0;
+}
+
+.copyright-term {
+    width: 685px;
+    height: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.funder {
+    width: 147px;
+    height: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    margin-left: calc(50% -147px) !important;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* 
+@media (max-height: 937px) {
+    #footer {
+        top: 690px;
+    }
+} */

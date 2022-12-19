@@ -1,0 +1,134 @@
+#navbar {
+    position: relative ;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 81px;
+    top: 0px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgba(1, 153, 204, 0.5);
+}
+
+.navbar-layout-display {
+    /* Auto layout */
+    /* position: absolute;
+    left: calc(50% - 290px); */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 0;
+    width: 740px;
+    
+    /* position: absolute;
+    left: 25.52%;
+    right: 25.46%;
+    top: 3.7%;
+    bottom: 16.05%; */
+
+    z-index: 1;
+}
+
+.florabelly-logo {
+    width: 178px;
+    height: 65px;
+    
+    /* background: url(remocao_de_fundo_flora.png); */
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 0;
+    
+    width: auto;
+    height: auto;
+    
+    
+    /* Inside auto layout */
+    
+    flex: 1;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hamburguer-area {
+    display: none;
+}
+
+.produtos {
+    width: 109px;
+    height: 40px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    /* identical to box height, or 91% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+
+}
+
+.contato {
+    width: 109px;
+    height: 21px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    /* identical to box height, or 91% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+/* .navbar-background , */
+.navbar-background  {
+    position: absolute;
+
+    height: 81px;
+    left: calc(50% - 1830px / 2);
+    top: 0px;
+    
+    /* background: url(../); */
+}
+
+.florabelly-navbar {
+position: absolute;
+top: 50px;
+left: 400px;
+    width: 1074px;
+    height: auto;
+    object-fit: fill;
+    padding: 30px 0;
+}
